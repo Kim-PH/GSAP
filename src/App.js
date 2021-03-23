@@ -43,7 +43,7 @@ export default function App() {
           <Route path="/contact">
             < Contact/>
           </Route>
-          <Route path="/home">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

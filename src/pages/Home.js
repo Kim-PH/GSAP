@@ -1,6 +1,6 @@
 import logo from '../images/logo.png';
 import '../App.css';
-import './Home.css';
+// import './Home.css';
 
 export default function Home() {
     return (
