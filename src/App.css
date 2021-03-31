@@ -10,6 +10,10 @@
   pointer-events: none;
 }
 
+.Proj {
+  width: 95vmin;
+}
+
 .App-footer {
   min-height: 3vh;
   padding: 15px;
@@ -30,6 +34,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.about .App-header {
+  background-color: #007f9c;
+}
+
+.projects .App-header {
+  background-color: lightskyblue;
+}
+
+.contact .App-header {
+  background-color: lightcoral;
 }
 
 .App-link {
@@ -60,10 +76,27 @@ ul {
     color: #282c34
   }
 
-  ul {
-      display: flex;
-      justify-content: space-evenly;
+  .myheader {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95%;
   }
+
+  .Showcase {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    padding: 10px;
+  }
+
+  .Showcase li {
+    padding: 5px 0;
+  }
+
 
   body {
       background-color: #d4d4d4;
@@ -73,4 +106,6 @@ ul {
       color: #282c34;
   }
 }
+
+
 
